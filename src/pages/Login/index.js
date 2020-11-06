@@ -9,7 +9,7 @@ import { login } from '../../services/auth';
 import {toast,ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 
-import './styles.css';
+import '../Login/styles.css';
 
 export default function Login() {
     const [email,setEmail] = useState('');
@@ -46,7 +46,7 @@ export default function Login() {
     return(
         <>
             <div className="app">
-                <div className="container"> 
+                <div className="container-login"> 
                 <img src={logo} alt="logotipo" className="img-logo"/>
 {/* 
                     <h1 className="title-page"> Login </h1>

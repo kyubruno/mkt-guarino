@@ -12,7 +12,6 @@ export default function Produtos(){
         <div className="containerprod">
 
             <h1 className="title-page"> Cadastro de Produtos </h1>
-            <hr className="line-title"/>
 
                 <form className="form-container">
 
@@ -45,7 +44,7 @@ export default function Produtos(){
                         className="form-field"
                         required/>                    
                     <br/> 
-                    <label> Upload</label>   <br></br>
+                    <label>Foto da calçado</label>   <br></br>
                     <input type="file" id="upload" accept="image/png, image/jpeg" className="form-field">
                     </input>                
                     <input type="checkbox" name="promocao" id="promocao" ></input> 
@@ -56,7 +55,7 @@ export default function Produtos(){
                     
                 </form>
                 <br/>
-                <Link to="/" className="link-back-login"> Início </Link> 
+                <Link to="/auth" className="link-back-login"> Início </Link> 
         </div>
 
         <ToastContainer/>

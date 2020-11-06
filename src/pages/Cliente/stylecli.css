@@ -2,24 +2,14 @@
     width: 100% !important;
 }
 
-.containerprod {
+.containercli {
     background-color: var(--background-color-body);
+    margin: auto;
     height: auto;
-    width: 80vh;
-    padding: 50px 50px;
+    width: 35vw;
+    padding: 25px 50px;
     /* border: 2px var(--color-main-text) solid; */
     border-radius: 50px;   
-}
- .containercli {
-    background-color: var(--background-color-body);
-    height: 71vh;
-    width: 80vh;
-    padding: 50px 50px;
-    /* border: 2px var(--color-main-text) solid; */
-    border-radius: 50px;   
-}
-.title-page{
-   text-align: center;
 }
 
 .img-logo {
@@ -39,7 +29,7 @@
 }
 
 .line-title {
-    width: 100%;
+    width: 70%;
     height: 2px;
 }
 

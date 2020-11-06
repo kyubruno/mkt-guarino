@@ -2,10 +2,21 @@
     width: 100% !important;
 }
 
+.container-login {
+    background-color: var(--background-color-body);
+    margin: auto;
+    height: auto;
+    width: 450px;
+    padding: 25px 50px;
+    /* border: 2px var(--color-main-text) solid; */
+    border-radius: 50px;   
+}
+
 .container {
     background-color: var(--background-color-body);
     margin: auto;
-    width: 25vw;
+    height: auto;
+    width: 450px;
     padding: 25px 50px;
     /* border: 2px var(--color-main-text) solid; */
     border-radius: 50px;   

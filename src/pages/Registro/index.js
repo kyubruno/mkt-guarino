@@ -55,7 +55,7 @@ export default function Register(){
 
     return(
         <>
-        <div className="container">
+        <div className="container-login">
             <img src={logo} alt="logotipo" className="img-logo"/>
             {/* <h1 className="title-page"> Register </h1>
                 <hr className="line-title"/> */}

@@ -95,7 +95,7 @@ export default function ForgetPassword(){
     if(submitedPin){
         return(
             <>
-                <div className="container">
+                <div className="container-a">
                     <img src={logo} alt="logotipo" className="img-logo"/>
                     {/* <h1 className="title-page"> New password </h1>
                     <hr className="line-title"/> */}

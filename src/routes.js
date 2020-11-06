@@ -9,6 +9,7 @@ import { isAuthenticated } from './services/auth';
 import Home from './pages/Inicio';
 import Produtos from './pages/Produtos';
 import Cliente from './pages/Cliente';
+import Catalogo from './pages/Catalogo';
 
 
 const PrivateRoute = ({component: Component, ...rest}) => (
@@ -35,6 +36,7 @@ const Routes = () => (
             <Route path='/profile' component={Profile}/>
             <Route path='/cadpro' component={(Produtos)}/>
             <Route path='/cliente' component={(Cliente)}/>
+            <Route path='/catalogo' component={(Catalogo)}/>
 
 
         </Switch>

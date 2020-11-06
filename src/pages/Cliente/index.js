@@ -7,7 +7,7 @@ import logo from '../../assets/logo_marketing.svg';
 import {toast,ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 
-import '../Login/styles.css';
+import '../Cliente/stylecli.css';
 
 export default function Cliente(){
 
@@ -58,7 +58,6 @@ export default function Cliente(){
         <div className="containercli">
 
            <h1 className="title-page"> Registre-se aqui! </h1>
-                <hr className="line-title"/>
                 <form onSubmit={e=>HandleSubmit(e)} className="form-container">
 
                     <label> Nome </label><br/>
@@ -113,7 +112,7 @@ export default function Cliente(){
                     <input type="submit" value="Registrar" className="form-submit"/>
                 </form>
                 <br/>
-                <Link to="/" className="link-back-login"> Voltar à página anterior </Link> 
+                <Link to="/auth" className="link-back-login"> Voltar à página anterior </Link> 
         </div>
 
         <ToastContainer/>
